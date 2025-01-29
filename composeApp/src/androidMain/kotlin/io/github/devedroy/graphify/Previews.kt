@@ -2,7 +2,7 @@ package io.github.devedroy.graphify
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
-import io.github.devedroy.graphify.graph.BarData
+import io.github.devedroy.graphify.domain.BarData
 import io.github.devedroy.graphify.graph.BarGraph
 
 @androidx.compose.ui.tooling.preview.Preview

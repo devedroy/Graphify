@@ -21,12 +21,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import io.github.devedroy.graphify.domain.BarData
 
-
-data class BarData<X, Y : Number>(
-    val xValue: X,
-    val yValue: Y
-)
 
 @Composable
 fun <X, Y : Number> BarGraph(
